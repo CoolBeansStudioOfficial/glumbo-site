@@ -7,9 +7,44 @@
 
     <link rel="stylesheet" href="style.css" />
 
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <img class="logo" src="images/Glumbo Logo.png" />
-    <button href="">Windows</button>
-    <button>Linux</button>
+    <div class="vbox">
+        <img class="logo" src="images/Glumbo Logo.png" />
+        <div class="hbox" style="align-items: flex-start;">
+            <div class="vbox section" style="height: 320px; width: 200px; max-width: 200px;">
+                <h1 class="centered">About</h1>
+                <p>
+                    You (Glumbo) find yourself trapped in a chamber that is rapidly flooding with dastardly creatures known as "squares" and "triangles". Truly evil...
+                    <br /><br />
+                    Collect coins as fast as you can and unlock the exit before the onslaught becomes too much to handle.
+                </p>
+            </div>
+
+            <video class="video centered" src="https://dn721600.ca.archive.org/0/items/PopcornArchive-Rickroll/PopcornArchive-Rickroll.mp4" controls="controls" height="330"></video>
+
+            <div class="vbox section" style="height: 320px; width: 200px; max-width: 200px;">
+                <h1 class="centered">Gameplay</h1>
+                <p>
+                    I will warn you: this is a difficult game. You are going to have to be smart with your movement if you want to beat it (No, running in a straight line will not work).
+                    <br /><br />
+                    Especially in Abandone Hope mode, you will need to be constantly aware of your surroundings and listening for sound cues to win. Don't say I didn't warn you, because I did.
+                </p>
+            </div>
+        </div>
+
+        <div class="hbox" style="align-items: center;">
+            <img class="nearest-neighbor" src="images/Arrow.png" height="32"/>
+            <h1>Download</h1>
+            <img class="nearest-neighbor" src="images/Arrow.png" height="32"/>
+        </div>
+        
+        <div class="hbox" id="download">
+            <a class="download-button" href="https://youtube.com" target="_blank">Windows</a>
+            <a class="download-button">Linux</a>
+        </div>
+        
+    </div>
+    
 </body>
