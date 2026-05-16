@@ -92,6 +92,10 @@
         align-content: center;
         gap: 10px;
     }
+
+    .disclaimer {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 800px) {
